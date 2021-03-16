@@ -4,7 +4,7 @@ Start-Process $env:windir\system32\control.exe -LoadUserProfile -Wait -ArgumentL
 Sleep 2
 [System.Windows.Forms.SendKeys]::SendWait("{TAB}{TAB}{TAB}{TAB}{TAB} ")
 Sleep 2
-[System.Windows.Forms.SendKeys]::SendWait("{DOWN}{DOWN} {DOWN}{DOWN}{DOWN}{DOWN}{DOWN} {DOWN} {TAB} ")
+[System.Windows.Forms.SendKeys]::SendWait("{TAB} ")
 Sleep 2
 [System.Windows.Forms.SendKeys]::SendWait("%{F4}")
 }
