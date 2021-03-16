@@ -1,1 +1,1 @@
-Set-ItemProperty -Path Registry::"KEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Windows" -Name "NoInteractiveServices" -PropertyType "DWORD" -Value "0" -Force 
+Set-ItemProperty -Path Registry::"KEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Windows" -Name "NoInteractiveServices" -Type "DWORD" -Value "0" -Force 
