@@ -1,0 +1,2 @@
+# https://support.microsoft.com/en-us/topic/how-can-i-prevent-users-from-connecting-to-a-usb-storage-device-460ef516-8ac8-07af-e90b-0d9ac55bcd4d
+Set-ItemProperty -Path Registry::"HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\USBSTOR" -Name "Start" -Type "DWORD" -Value "4" -Force
